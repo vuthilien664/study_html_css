@@ -137,6 +137,7 @@ img{
 .sec-banner{
 	position: relative;
 	z-index: -1;
+	opacity: 0.9;
 }
 .sec-banner .wrap-banner{
 	width: 100%;
@@ -224,4 +225,51 @@ img{
 }
 .input-group-now:hover{
 	background-color: #2c75ba;
+}
+.sec-destination{
+	margin-top:150px;
+}
+.destination-heading{
+	margin-bottom: 50px;
+}
+.wrap-destination .popu-group{
+	color: #F56960;
+	font-size: 15px;
+	position:  relative;
+	padding-left: 80px;
+	width: 240px;
+	margin-bottom:22px;
+}
+.wrap-destination .popu-group::before{
+	background-color: #F56960;
+    content: "";
+    height: 2px;
+    width: 70px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.section-disc h2{
+	margin-right: 50px;
+	color: #101F46; 
+	font-size: 48px;
+    font-weight: 900;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.section-disc p{
+	width: 450px;
+	color: #383838;
+	line-height: 1.6;
+}
+.wrap-content-mountain{
+	width: 650px;
+}
+.wrap-content-mountain .desti-item{
+	width: 322px;
+	border-radius:10px;  
+}
+.desti-item{
+	margin-right: 20px
 }
