@@ -382,8 +382,8 @@ img{
 .package-meta {
     background-color: #0791BE;
     margin-bottom: 25px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-top: -25px;
     padding: 15px 0;
     position: relative;
@@ -422,21 +422,19 @@ img{
     font-size: 13px;
     color: #787878;
     line-height: 1.1;
-}
-.rating-start{
-	padding-left: 15px;
+    margin-right: 10px;
 }
 .package-content p{
 	margin-top: 20px;
     color: #383838;
     line-height: 1.6;
 }
-.rating-start .fas{
+.review-package .fas{
 	color: #F56960;
     padding: 0;
-    margin-top: 10px;
+
 }
-.rating-start .far{
+.review-package .far{
 	color: #ccd6df;
 }
 .wrap-book-list{
@@ -444,9 +442,30 @@ img{
     text-align: center;
     margin-left: -30px;
     margin-right: -30px;
-    margin-top: 27px;
-    padding: 16px 0; 
+    margin-top: 27px; 
 }
-.package-content .wrap-book-list a{
+.wrap-book-list .button-text{
+	width: 50%;
+}
+.wrap-book-list a{
 	color: #383838;
+	padding: 0 30px;
+}
+.wrap-book-list a .fas:hover{
+	color: #0791BE;
+}
+.button-text .fas{
+	color: #F56960;
+	font-size: 13px;
+	border-right: 1px solid rgba(175, 175, 175, 0.1);
+	padding: 20px 20px;
+	margin-left: -20px;
+    padding-right: 50px;
+}
+.button-text .far{
+	color: #F56960;
+	font-size: 13px;
+}
+.wrap-book-list a .far:hover{
+	color: #0791BE;
 }
