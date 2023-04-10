@@ -192,8 +192,11 @@ img{
 }
 
 .sec-search .wrap-col-search{
-	 background : #fff;
-	 padding: 30px;
+	background : #fff;
+	padding: 30px;
+	box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.08);
+    margin-top: -58px;
+    position: absolute;
 }
 .wrap-col-search .input-group{
 	margin-right: 20px;
@@ -335,8 +338,10 @@ img{
     top: 50%;
    	left: 420px;
 }
-
-.package-section .section-disc-package{
+.package-section{
+	padding-bottom: 100px;
+}
+.section-disc-package{
 	margin-top: 40px;
 	width: 750px;
     padding-left: 220px;
@@ -355,8 +360,8 @@ img{
     text-transform: uppercase;
 }
 .package-inner .packege-wrap{
-   padding-left: 12px;
-   padding-right: 12px;
+   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+   margin-right: 22px;
    margin-bottom: 24px;
 }
 .packege-wrap{
@@ -444,9 +449,6 @@ img{
     margin-right: -30px;
     margin-top: 27px; 
 }
-.wrap-book-list .button-text{
-	width: 50%;
-}
 .wrap-book-list a{
 	color: #383838;
 	padding: 0 30px;
@@ -468,4 +470,170 @@ img{
 }
 .wrap-book-list a .far:hover{
 	color: #0791BE;
+}
+.callback-section {
+    position: relative;
+    margin-bottom: 140px;
+    height: 760px;
+}
+.callback-section::before {
+    background-color: #0791BE;
+    content: "";
+    width: 70%;
+    height: 710px;
+    position: absolute;
+    right: 0;
+}
+.wrap-col .col-left{
+	background-image: url("../images/img8.jpg");
+	width: 475px;
+	min-height: 540px;
+	position: absolute;
+	margin-top: 85px;
+}
+.col-left .video-button {
+	left: 40%;
+    top: 40%;
+    position: absolute;
+}
+.video-button a i{
+	background-color: #fff;
+	border-radius: 100%;
+	color: #0791BE;
+	font-size: 24px;
+	width: 95px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.callback-section .callback-inner{
+    padding: 100px 0px 0px 65px;
+    position: absolute;
+    right: 307px;
+    width: 665px;
+    height: 720px;
+}
+.callback-inner .dash-style{
+	color: #fff;
+	font-size: 15px;
+    position: relative;
+    padding-left: 80px;
+    width: 240px;
+    margin-bottom: 50px;
+}
+.col-right .dash-style::before{
+	background-color: #fff;
+	content: "";
+    height: 2px;
+    width: 70px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.section-disc-callback{
+	margin-bottom: 50px;
+}
+.section-disc-callback h2{
+	color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+.section-disc-callback P{
+	margin-top: 20px;
+    color: #fff;
+    line-height: 1.6;
+    width: 600px;
+}
+.wrap-callback-counter{
+	flex-wrap: wrap;
+}
+.wrap-callback-counter .callback-item{
+	height: 103px;
+	padding: 7px 7px 0px 7px;
+	width: calc(100% * (1/2) - 50px);
+	border-right: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.wrap-callback-counter .callback-icon{
+	width: 52px;
+}
+.callback-item .callback-content{
+	color: #fff;
+	text-align: center;
+    margin-left: 50px;
+}
+.callback-content .counter-no{
+	font-size: 32px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+.support-area{
+    background-color: #ffffff;
+    box-shadow: 0px 15px 55px -15px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding: 35px;
+    margin-top: 9px;
+    width: 465px;
+    height: 70px;
+}
+.support-area .support-icon{
+    width: 52px;
+    margin-right: 26px;
+}
+.support-area h4{
+    color: #383838;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 15px;
+    font-family: math;
+}
+.support-area h3 a{
+    color: #F56960;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 0;
+}
+.support-area h3 a:hover{
+	color: #101F46;
+}
+.activity-section .package-group::before{
+   	left: 440px; 
+}
+.activity-inner .row-activity{
+	padding-left: 9px;
+    padding-right: 9px;
+    width: 193px;
+    height: 174px;
+}
+.activity-inner .activity-item {
+    border: 1px solid #D9D9D9;
+    text-align: center;
+    padding: 15px;
+}
+.activity-inner .activity-item .activity-icon a{
+    margin-bottom: 15px;
+    width: 143px;
+    height: 74px;
+}
+.activity-icon{
+	width: 92px;
+	padding: 28px;
+	height: 64px;
+}
+.activity-inner .activity-item h4 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.activity-inner .activity-item h4:hover{
+	color: #101F46;
+    font-family: sans-serif;
+}
+.activity-inner .activity-item p {
+    margin-bottom: 0;
 }
