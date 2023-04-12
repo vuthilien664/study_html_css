@@ -258,6 +258,7 @@ img{
     line-height: 1.1;
     text-transform: uppercase;
     margin-bottom: 30px;
+    font-family: system-ui;
 }
 .section-disc p{
 	width: 450px;
@@ -363,7 +364,8 @@ img{
 }
 .package-inner .packege-wrap{
    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
-   margin-right: 22px;
+   margin-right: 15px;
+   margin-left: 15px;
    margin-bottom: 24px;
 }
 .packege-wrap{
@@ -534,7 +536,7 @@ img{
     top: 50%;
 }
 .section-disc-callback{
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 .section-disc-callback h2{
 	color: #fff;
@@ -553,10 +555,11 @@ img{
 }
 .wrap-callback-counter .callback-item{
 	height: 103px;
-	padding: 7px 7px 0px 7px;
+	padding: 7px 7px 0px 25px;
 	width: calc(100% * (1/2) - 50px);
 	border-right: 1px solid rgba(255, 255, 255, 0.4);
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    align-items: center;
 }
 .wrap-callback-counter .callback-icon{
 	width: 52px;
@@ -749,6 +752,10 @@ img{
 	margin-top: 30px;
 	width: 660px;
 }
+.client-section {
+    position: relative;
+    z-index: 9;
+}
 .client-section .container{
 	max-width: 1170px;
 	padding-right: 15px;
@@ -762,4 +769,136 @@ img{
 	width: 228px;
 	padding: 10px 35px;
 	text-align: center;
+}
+.holiday-section{
+	background-image: url('../images/img16.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 195px 0 75px;
+    position: relative;
+    margin-top: -100px;
+}
+.holiday-section .destination-heading{
+	width: 727px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.holiday-section .popu-group{
+	color: #fff;
+}
+.holiday-section .popu-group::before{
+	background-color: #fff;
+}
+.holiday-section .section-disc h2{
+	color: #fff;
+}
+.holiday-section .section-disc h4{
+	font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 35px;
+    line-height: 1.2;
+    font-size: 18px;
+}
+.holiday-form{
+	margin-bottom: 30px;
+	position: relative;
+}
+.holiday-form .yourname{
+	background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    color: #ffffff;
+    width: 90%;
+    height: 60px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.holiday-form .signupnow{
+	line-height: 1.3;
+    padding: 15px 30px;
+    position: absolute;
+    top: 6px;
+    background-color: #F56960;
+    color: #ffffff;
+    border: 1px solid #F56960;
+    font-weight: 600;
+    right: 58px;
+}
+.holiday-form .signupnow:hover{
+	background-color: #2C75BA;
+	border: 1px solid #2C75BA;
+}
+.holiday-section .section-disc p{
+	color: #fff;
+	width: 652px;
+}
+.blog-section{
+	padding-bottom: 100px;
+}
+.blog-section .package-content{
+	padding: 20px 22px;
+}
+.blog-section .entry-meta .posted-on{
+	border-left: 1px solid #787878;
+	border-right: 1px solid #787878;
+}
+.entry-meta a{
+	color: #787878;
+	font-size: 14px;
+    padding: 0 8px;
+}
+.testimonial-section{
+	background-image: url('../images/img23.jpg');
+	padding-bottom: 94px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 0 75px;
+    position: relative;
+}
+.testimonial-section .testimonial-iner{
+	width: 975px;
+	margin-left: 130px;
+}
+.testimonial-item .testimonial-img{
+	border: 2px solid #F56960;
+	border-radius: 100%;
+	width: 125px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial-item .testimonial-content p{
+	color: #151515;
+	font-style: italic;
+	line-height: 1.5;
+	font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.testimonial-content .company{
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 24px;
+}
+.testimonial-content .company h2{
+	color: #0791BE;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+.testimonial-content .company span{
+    color: #787878;
+    display: block;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.slick-dots .slick-active{
+	text-align: center;
+	color: #c6c6c6;
+	
 }
