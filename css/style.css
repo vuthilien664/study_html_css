@@ -634,13 +634,16 @@ img{
     margin-bottom: 8px;
     font-weight: 700;
     line-height: 1.2;
+    color: #101F46;
 }
 .activity-inner .activity-item h4:hover{
-	color: #101F46;
+	color: #2C75BA;
     font-family: sans-serif;
 }
 .activity-inner .activity-item p {
     margin-bottom: 0;
+    color: #383838;
+    font-size: 15px;
 }
 .special-item{
 	position: relative;
