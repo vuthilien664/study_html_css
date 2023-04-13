@@ -975,6 +975,9 @@ img{
 	background-color: #383838;
 	padding-top: 80px;
 }
+.colophon-section .top-footer{
+	padding-bottom: 55px;
+}
 .colophon-section .col-widget{
 	padding-right: 15px;
 	padding-left: 15px;
@@ -1039,7 +1042,10 @@ img{
 	border-right: 1px solid rgba(135, 135, 135, 0.3);	
 }
 .widget-post .widget-not a{
-	color: #fff;
+	color: #f3f3f3;
+}
+.widget-post .widget-not a:hover{
+	color: #2C75BA;
 }
 .col-widget .widget-post-meta .widget-not{
 	font-weight: 600;
@@ -1049,7 +1055,10 @@ img{
 	font-size: 15px;
 }
 .col-widget .widget-post-meta .widget-not a{
-	color: #fff;
+	color: #f3f3f3;
+}
+.col-widget .widget-post-meta .widget-not a:hover{
+	color: #2C75BA;
 }
 .form-newlatter{
 	margin-top: 24px;
@@ -1072,4 +1081,46 @@ img{
 }
 .form-newlatter .signupnow:hover{
 	background-color: #2C75BA;
+}
+.site-footer .buttom-footer {
+    background-color: #404040;
+    padding: 30px 0;
+}
+.buttom-footer{
+	background-color: #404040;
+	padding: 30px 0;
+}
+.buttom-footer .footer-menu{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.buttom-footer .footer-menu{
+	margin-top: 14px;
+	width: 487px;
+}
+.footer-menu .footer-polity li{
+	padding: 0 10px;
+	font-size: 15px;
+}
+.footer-menu .footer-polity li a{
+	color: #f3f3f3;
+}
+.footer-menu .footer-polity li a:hover{
+	color: #2C75BA;
+}
+.footer-menu .footer-polity .posted-on{
+	border-right: 1px solid #9b9b9b;
+	border-left: 1px solid #9b9b9b;
+}
+.buttom-footer .footer-logo{
+	width: 165px;
+}
+.buttom-footer .copy-right{
+	color: #f3f3f3;
+	font-size: 15px;
+	margin-top: 15px;
+	width: 487px;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 15px;
 }
